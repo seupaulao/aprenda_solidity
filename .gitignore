@@ -1,0 +1,20 @@
+# Compiler files
+foundry/ola-mundo-solidity/cache/
+foundry/ola-mundo-solidity/out/
+
+# Commonly ignored directories
+foundry/ola-mundo-solidity/.logs/
+foundry/ola-mundo-solidity/.ignore/
+
+# Ignores development broadcast logs
+foundry/ola-mundo-solidity/!/broadcast
+foundry/ola-mundo-solidity/broadcast/*/31337/
+foundry/ola-mundo-solidity/broadcast/**/dry-run/
+
+# Docs
+foundry/ola-mundo-solidity/docs/
+
+# Dotenv file
+foundry/ola-mundo-solidity/.env
+foundry/ola-mundo-solidity/.env.*
+!foundry/ola-mundo-solidity/.env.example
